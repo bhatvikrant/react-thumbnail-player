@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react'
+import PropTypes from 'prop-types'
 
-import styles from "./styles.css";
+import styles from './styles.css'
 
 const VideoThumbnail = ({
   preview,
@@ -14,14 +14,14 @@ const VideoThumbnail = ({
   classname
 }) => {
   const onHover = e => {
-    e.target.play();
-    e.target.nextElementSibling.style.opacity = 0.4;
-  };
+    e.target.play()
+    e.target.nextElementSibling.style.opacity = 0.4
+  }
 
   const offHover = e => {
-    e.target.pause();
-    e.target.nextElementSibling.style.opacity = 1;
-  };
+    e.target.pause()
+    e.target.nextElementSibling.style.opacity = 1
+  }
 
   return (
     <div
@@ -46,8 +46,8 @@ const VideoThumbnail = ({
       <h4 className={styles.title}>{title}</h4>
       <span className={styles.views}>{message}</span>
     </div>
-  );
-};
+  )
+}
 
 VideoThumbnail.propTypes = {
   preview: PropTypes.string,
@@ -58,17 +58,17 @@ VideoThumbnail.propTypes = {
   muted: PropTypes.bool,
   width: PropTypes.number,
   classname: PropTypes.string
-};
+}
 
 VideoThumbnail.defaultProps = {
-  preview: "http://clips.vorwaerts-gmbh.de/VfE_html5.mp4",
-  title: "Hi, this is a test title",
-  message: "2M Watching Now",
-  badge: "Live",
-  // badgeBg: "lightblue",
+  preview: 'http://clips.vorwaerts-gmbh.de/VfE_html5.mp4',
+  title: 'Hi, this is a test title',
+  message: '2M Watching Now',
+  badge: 'Live',
+  // badgeBg: 'lightblue',
   muted: false,
   width: 350,
-  classname: ""
-};
+  classname: ''
+}
 
-export default VideoThumbnail;
+export default VideoThumbnail

@@ -4,7 +4,9 @@
 
 >
 
-[![NPM](https://img.shields.io/npm/v/reactautoplay.svg)](https://www.npmjs.com/package/reactautoplay) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+<!-- [![NPM](https://img.shields.io/npm/v/react-thumbnail-player.svg)](https://www.npmjs.com/package/react-thumbnail-player) -->
+
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Installation
 
@@ -17,7 +19,7 @@ npm install --save react-thumbnail-player
 ```jsx
 import React, { Component } from "react";
 
-import VideoThumbnail from "reactautoplay";
+import VideoThumbnail from "react-thumbnail-player";
 
 export default class App extends Component {
   render() {
