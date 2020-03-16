@@ -41,6 +41,8 @@ export default class App extends Component {
 }
 ```
 
+[Visit Docs](https://bhatvikrant.github.io/react-thumbnail-player/)
+
 <!-- ## License
 
 MIT © [bhatvikrant](https://github.com/bhatvikrant) -->
