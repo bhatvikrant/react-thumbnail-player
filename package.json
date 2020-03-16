@@ -1,7 +1,7 @@
 {
   "name": "react-thumbnail-player",
-  "version": "1.0.1",
-  "description": "",
+  "version": "1.0.0",
+  "description": "An NPM package to make video thumbnails play / pause on hover and more.",
   "author": "bhatvikrant",
   "license": "MIT",
   "repository": "bhatvikrant/react-thumbnail-player",
@@ -17,8 +17,8 @@
     "test:watch": "react-scripts test --env=jsdom",
     "build": "rollup -c",
     "start": "rollup -c -w",
-    "prepare": "yarn run build",
-    "predeploy": "cd example && yarn install && yarn run build",
+    "prepare": "npm run build",
+    "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {

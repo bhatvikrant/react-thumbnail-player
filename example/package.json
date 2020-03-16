@@ -1,6 +1,6 @@
 {
-  "name": "reactautoplay-example",
-  "homepage": "https://bhatvikrant.github.io/reactautoplay",
+  "name": "react-thumbnail-player-example",
+  "homepage": "https://bhatvikrant.github.io/react-thumbnail-player",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -9,7 +9,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "^1.1.4",
-    "reactautoplay": "link:.."
+    "react-thumbnail-player": "file:.."
   },
   "scripts": {
     "start": "react-scripts start",
