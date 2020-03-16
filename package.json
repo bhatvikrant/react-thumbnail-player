@@ -1,10 +1,10 @@
 {
-  "name": "react-videoplay",
+  "name": "react-thumbnail-player",
   "version": "1.0.0",
   "description": "",
   "author": "bhatvikrant",
   "license": "MIT",
-  "repository": "bhatvikrant/react-videoplay",
+  "repository": "bhatvikrant/react-thumbnail-player",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
