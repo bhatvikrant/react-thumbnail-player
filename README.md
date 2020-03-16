@@ -1,4 +1,4 @@
-# react-videoplay
+# react-thumbnail-player
 
 >
 
@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-npm install --save react-videoplay
+npm install --save react-thumbnail-player
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save react-videoplay
 ```jsx
 import React, { Component } from "react";
 
-import MyComponent from "react-videoplay";
+import MyComponent from "react-thumbnail-player";
 
 class Example extends Component {
   render() {
@@ -28,4 +28,4 @@ class Example extends Component {
 
 MIT © [bhatvikrant](https://github.com/bhatvikrant)
 
-# react-videoplay
+# react-thumbnail-player
