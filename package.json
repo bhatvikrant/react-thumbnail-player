@@ -1,6 +1,6 @@
 {
   "name": "react-thumbnail-player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An NPM package to make video thumbnails play / pause on hover and more.",
   "author": "bhatvikrant",
   "license": "MIT",
