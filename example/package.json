@@ -1,22 +1,21 @@
 {
-  "name": "react-thumbnail-player-example",
-  "homepage": "https://bhatvikrant.github.io/react-thumbnail-player",
-  "version": "0.0.0",
-  "license": "MIT",
-  "private": true,
-  "dependencies": {
-    "bootstrap": "^4.4.1",
-    "prop-types": "^15.6.2",
-    "react": "^16.4.1",
-    "react-bootstrap": "^1.0.0-beta.17",
-    "react-dom": "^16.4.1",
-    "react-scripts": "^1.1.4",
-    "react-thumbnail-player": "file:.."
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+	"name": "react-thumbnail-player-example",
+	"homepage": "https://bhatvikrant.github.io/react-thumbnail-player",
+	"version": "0.0.0",
+	"license": "MIT",
+	"dependencies": {
+		"bootstrap": "^4.4.1",
+		"prop-types": "^15.6.2",
+		"react": "^16.4.1",
+		"react-bootstrap": "^1.0.0-beta.17",
+		"react-dom": "^16.4.1",
+		"react-scripts": "^1.1.4",
+		"react-thumbnail-player": "file:.."
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	}
 }
